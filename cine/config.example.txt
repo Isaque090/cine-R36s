@@ -9,4 +9,4 @@ TMDB_API_KEY=
 # TRAILER_API_URL=https://seu-site.com/index.php?tmdb_id={tmdb_id}
 # Deve responder: {"success": true, "sources": [{"file": "link", "label": "Opção 1", "type": "mp4"}]}
 # Em Configurações > Trailer ID você escolhe se manda o id do TMDB ou do IMDb.
-TRAILER_API_URL=
+TRAILER_API_URL=https://api-filmes-q198.onrender.com/index.php?tmdb_id={tmdb_id}

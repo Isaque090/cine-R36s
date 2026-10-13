@@ -1,0 +1,12 @@
+# Copie este arquivo para config.txt (na mesma pasta) e preencha.
+# Nunca publique o config.txt com suas chaves.
+
+# Chave da API do TMDB (grátis em https://www.themoviedb.org/settings/api)
+TMDB_API_KEY=
+
+# API de trailers própria (opcional). Vazio = usa o trailer oficial do TMDB/YouTube.
+# Use {tmdb_id} (ou {imdb_id}) onde entra o id do filme. Exemplo:
+# TRAILER_API_URL=https://seu-site.com/index.php?tmdb_id={tmdb_id}
+# Deve responder: {"success": true, "sources": [{"file": "link", "label": "Opção 1", "type": "mp4"}]}
+# Em Configurações > Trailer ID você escolhe se manda o id do TMDB ou do IMDb.
+TRAILER_API_URL=

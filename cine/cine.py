@@ -1889,13 +1889,13 @@ class CineApp:
             self.draw_text(self.t("msg_loading_videos"), SCREEN_WIDTH // 2 - 55, y + 230, Colors.TEXT_TERTIARY, self.font_small)
     
     def render_settings(self, start_y, height):
-        # Title ve r36swiki.com branding - aynı satırda
+        # Title ve Cine R36s branding - aynı satırda
         self.draw_text(self.t("settings_title"), 20, start_y + 10, Colors.TEXT_PRIMARY, self.font_large)
         
-        # r36swiki.com yazısı - sağ üst köşede, Settings ile aynı hizada
+        # Cine R36s yazısı - sağ üst köşede, Settings ile aynı hizada
         brand_x = SCREEN_WIDTH - 105
         brand_y = start_y + 12
-        self.draw_text("r36swiki.com", brand_x, brand_y, Colors.TEXT_PRIMARY, self.font_small)
+        self.draw_text("Cine R36s", brand_x, brand_y, Colors.TEXT_PRIMARY, self.font_small)
         
         item_h = 50
         margin = 5

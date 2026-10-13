@@ -1,6 +1,3 @@
-# Copie este arquivo para config.txt (na mesma pasta) e preencha.
-# Nunca publique o config.txt com suas chaves.
-
 # Chave da API do TMDB (grátis em https://www.themoviedb.org/settings/api)
 TMDB_API_KEY=
 
